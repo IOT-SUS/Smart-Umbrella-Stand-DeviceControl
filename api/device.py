@@ -2,7 +2,7 @@ import requests
 from dateutil import parser
 
 DEVICE_ID       = "1386424c"
-SERVER_BASE_URL = "http://35.236.177.163:5000/api/"
+SERVER_BASE_URL = "http://127.0.0.1:5000/api/"
 
 class deviceAPI():
     @staticmethod
